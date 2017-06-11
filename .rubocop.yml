@@ -1,0 +1,24 @@
+require: rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.4
+  DisplayCopNames: true
+  Exclude:
+    - 'db/schema.rb'
+
+Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/LineLength:
+  Enabled: false
+
+Rails:
+  Enabled: true
+
+RSpec/NestedGroups:
+  Max: 4
