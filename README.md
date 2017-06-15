@@ -12,6 +12,7 @@ The following dependencies are installed by default:
  - pg
  - rspec
  - rspec-rails
+ - shoulda matchers
  - rubocop
 
 ## Docker containers
